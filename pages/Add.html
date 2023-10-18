@@ -1,0 +1,18 @@
+<body ng-controller="ListCtrl">
+    <h1>THÊM ĐIỆN THOẠI</h1>
+    <form>
+        <input type="text" placeholder="ID" class="form-control" required ng-model="formPhone.id">
+        <p></p>
+        <input type="text" placeholder="Ten" class="form-control" required ng-model="formPhone.ten">
+        <p></p>
+        <select name="Hang" id="hang" ng-model="formPhone.hang" class="form-select" required>
+            <option>Sam sung</option>
+            <option>Iphone</option>
+            <option>Oppo</option>
+        </select>
+        <p></p>
+        <input type="number" min="100" placeholder="Gia" class="form-control" required ng-model="formPhone.gia">
+        <p></p>
+        <button ng-click="addPhone($event)">Them</button>
+    </form>
+</body>

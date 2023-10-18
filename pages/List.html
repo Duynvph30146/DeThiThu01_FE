@@ -1,0 +1,40 @@
+<body ng-controller="ListCtrl">
+    <h1>DANH SÁCH ĐIỆN THOẠI</h1>
+    <p></p>
+    <a href="#add"><button>Thêm</button></a>
+    <!-- <form>
+        <input type="text" placeholder="ID" class="form-control" required ng-model="formPhone.id">
+        <p></p>
+        <input type="text" placeholder="Ten" class="form-control" required ng-model="formPhone.ten">
+        <p></p>
+        <input type="text" placeholder="Hang" class="form-control" required ng-model="formPhone.hang">
+        <p></p>
+        <input type="text" placeholder="Gia" class="form-control" required ng-model="formPhone.gia">
+        <p></p>
+           <button ng-click="updatePhone($event)">Sửa</button>
+        <a href="#list-phone"><button>Quay lại</button></a>
+            </form> -->
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Ten</th>
+                <th>Hang</th>
+                <th>Gia</th>
+                <th>Thao Tac</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="p in listPhone">
+                <td>{{p.id}}</td>
+                <td>{{p.ten}}</td>
+                <td>{{p.hang}}</td>
+                <td>{{p.gia}}</td>
+                <td>
+                   <a href="#detail/{{p.id}}"><button>Chi tiết</button></a>
+                   <a href="#detail/{{p.id}}"><button>Sửa</button></a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>

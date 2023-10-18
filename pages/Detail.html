@@ -1,0 +1,15 @@
+<body ng-controller="ListCtrl">
+    <h1>CHI TIẾT ĐIỆN THOẠI</h1>
+    <form>
+<input type="text" placeholder="ID" class="form-control" required ng-model="Detail.id">
+<p></p>
+<input type="text" placeholder="Ten" class="form-control" required ng-model="Detail.ten">
+<p></p>
+<input type="text" placeholder="Hang" class="form-control" required ng-model="Detail.hang">
+<p></p>
+<input type="number"placeholder="Gia" min="100" class="form-control" required ng-model="Detail.gia">
+<p></p>
+   <button ng-click="updatePhone()">Sửa</button>
+<a href="#list-phone"><button>Quay lại</button></a>
+    </form>
+</body>

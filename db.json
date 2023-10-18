@@ -1,0 +1,40 @@
+{
+  "DienThoai": [
+    {
+      "id": 1,
+      "ten": "abcd",
+      "hang": "a",
+      "gia": 105
+    },
+    {
+      "id": 2,
+      "ten": "duy",
+      "hang": "a",
+      "gia": 110
+    },
+    {
+      "id": 3,
+      "ten": "khánh",
+      "hang": "a",
+      "gia": 101
+    },
+    {
+      "id": 4,
+      "ten": "tuấn anh",
+      "hang": "a",
+      "gia": 100
+    },
+    {
+      "id": 5,
+      "ten": "tùng",
+      "hang": "s",
+      "gia": 120
+    },
+    {
+      "id": 6,
+      "ten": "sp01",
+      "hang": "Iphone",
+      "gia": 15000000
+    }
+  ]
+}
